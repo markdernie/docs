@@ -19,4 +19,15 @@ npm uninstall lib1;npm i lib1 --registry http://localhost:4873 ;ng g lib1:user-s
 ```
 test text2test text
 ```
+## local-web-server
+```
+npm install -g local-web-server
+```
+## add script to package.json
+
+script
+```
+"ws" : "ws --cors.origin http://KatesLaptop:4200 --https"
+```
+
 
